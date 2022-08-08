@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./page.styles.scss";
 import img from "./1.jpg";
 
@@ -21,7 +21,7 @@ const Page = () => {
               initial={{ scale: 1.4 }}
               animate={{ scale: 1 }}
               transition={{
-                easing: /* [0.42, 0, 0.58, 1], */ [0, 0.71, 0.2, 1.01],
+                easing: [0, 0.71, 0.2, 1.01],
                 delay: 1,
                 duration: 0.7,
               }}
