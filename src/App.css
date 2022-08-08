@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -5,4 +6,15 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+.App {
+  background: black;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 2.5rem;
 }
